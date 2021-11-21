@@ -1,0 +1,16 @@
+{
+    "macros": [
+        {
+        "key":"Example",
+        "code": ": This is an example of a additive macro",
+        "carBack": 0
+        }
+    ],
+    "replaceMacros": [
+        {
+            "key":"Example2",
+            "code": "This is an example of a replacing macro",
+            "carBack": 0
+        }
+    ]
+}
