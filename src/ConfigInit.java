@@ -19,7 +19,7 @@
  * Boston, MA  02111-1307  USA
  *
  * @author   Ness Tran http://google.ca
- * @modified 11/21/2021
+ * @modified 11/25/2021
  * @version  1.0.0
  */
 
@@ -48,7 +48,7 @@ import org.json.simple.parser.*;
 public class ConfigInit {
 
 	/**
-	 * Checks current congif directory situation 
+	 * Checks current config directory situation 
 	 * And creates a new (file)macros.json / (dir)config as needed. 
 	 * 
 	 * If macros.json exists, renames it 

@@ -21,7 +21,7 @@
  *
  * @author dahjon
  * @modifiedBy Ness Tran http://google.ca
- * @modified 11/21/2021
+ * @modified 11/25/2021
  * @version  1.0.0
  */
 package MacroFromJson;
@@ -52,6 +52,5 @@ public class CodeSkeletonMacro extends Macros {
 	public void insert(Editor editor, int indent) {
 		editor.setText(CODE_SKELETON);
 		editor.getTextArea().setCaretPosition(CARETPOS);
-		// System.out.println("editor.getCaretOffset() = " + editor.getCaretOffset());
 	}
 }

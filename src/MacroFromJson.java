@@ -1,6 +1,6 @@
 /**
  * Allows users to use keywords that can autocomplete to code snippets.
- * Additionally, it can create a template json file to get usesrs started.
+ * Additionally, it can create a template json file to get users started.
  *
  * (c) 2015
  *
@@ -20,7 +20,7 @@
  * Boston, MA  02111-1307  USA
  *
  * @author   Ness Tran http://google.ca
- * @modified 11/21/2021
+ * @modified 11/25/2021
  * @version  1.0.0
  */
 
@@ -37,7 +37,7 @@ import processing.app.tools.Tool;
 import processing.app.ui.Editor;
 
 /**
- * Is the Main class Primary behaviour flow goes through run() and keyPressed()
+ *  MacroFromJson is the main class. Primary function flow goes through run() and keyPressed()
  */
 public class MacroFromJson implements Tool, KeyListener {
 
@@ -111,7 +111,6 @@ public class MacroFromJson implements Tool, KeyListener {
 				setDefault = false;
 			} else {
 				System.out.println(Const.CONFIRM_DEFAULT);
-				
 				setDefault = true;
 			}
 		}
