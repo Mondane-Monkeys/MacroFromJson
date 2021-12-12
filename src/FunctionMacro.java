@@ -21,7 +21,7 @@
  *
  * @author dahjon
  * @modifiedBy Ness Tran http://google.ca
- * @modified 11/25/2021
+ * @modified 12/12/2021
  * @version  1.0.0
  */
 
@@ -39,10 +39,11 @@ public class FunctionMacro extends Macros {
 
 	public FunctionMacro() {
 
-		super("(void|int|float|double|long|String|char|byte|PVector)\\s+[0-9a-zA-ZÂ‰ˆ≈ƒ÷]+\\(", "){\n   \n}\n", 3);
+		super("(void|int|float|double|long|String|char|byte|PVector)\\s+[0-9a-zA-ZÂ‰ˆ≈ƒ÷]+\\(", "){\n   \n}\n", 3, "", false, Const.defaultGroup);
 	}
 
 	public boolean stringIsThisMacro(Editor editor, String sstr) {
+		System.out.println("hereFM");
 		String etxt = editor.getText();
 		etxt = etxt.substring(0, editor.getCaretOffset());
 		int previousLineBreak = etxt.lastIndexOf('\n');
